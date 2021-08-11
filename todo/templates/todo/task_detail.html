@@ -1,0 +1,9 @@
+{% extends 'todo/main.html' %}
+{% block content %}
+    <h3>Task Detail view</h3>
+    <h2>Todo Application</h2>
+    <hr>
+    <a href="{% url 'tasks'%}"> Go Back </a>
+    <hr>
+    {{task}}
+{% endblock content %}
